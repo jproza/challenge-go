@@ -1,0 +1,49 @@
+{
+	"info": {
+		"_postman_id": "3bf27b2e-d44d-462d-acfb-7f708ca53ccf",
+		"name": "Challenge-go",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "challenge-go-login",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7007/user-api/login",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7007",
+					"path": [
+						"user-api",
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "challenge-go-get-pictures",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:7007/user-api/pictures",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "7007",
+					"path": [
+						"user-api",
+						"pictures"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
